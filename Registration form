@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Sports Team Registration Form</h2>
+
+    <form>
+        
+        <label>Player Name:</label><br>
+        <input type="text" placeholder="Enter player name"><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other<br><br>
+
+        <label>Age:</label><br>
+        <input type="age" placeholder="Enter your age"><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" placeholder="Enter phone number"><br><br>
+
+        <label>College Name:</label><br>
+        <input type="college name" placeholder="Enter your college name"><br><br>
+        
+        <label>Select Sport:</label><br>
+        <select>
+            <option>Select sport</option>
+            <option>Cricket</option>
+            <option>Volleyball</option>
+            <option>Football</option>
+            <option>Atheletics</option>
+            <option>Kabbadi</option>
+        </select><br><br>
+
+        <label>Team name:</label><br>
+        <input type="team name" placeholder="Enter team name"><br><br>
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
