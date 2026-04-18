@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedBus Clone</title>
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #d32f2f;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+
+        .navbar a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .search-box {
+            background-color: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 60%;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            background-color: #d32f2f;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.VvJnl8LFcHBtFZ4k-lWtPQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" width="100px" height="80px">
+
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Bus Tickets</a>
+            <a href="#">Offers</a>
+            <a href="#">Help</a>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <h2>Book Bus Tickets</h2>
+
+        <form action="#">
+            <input type="text" placeholder="From">
+            <input type="text" placeholder="To">
+            <input type="date">
+            <br>
+            <button type="submit">Search Buses</button>
+        </form>
+    </div>
+
+</body>
+</html>
